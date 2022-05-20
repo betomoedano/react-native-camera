@@ -1448,6 +1448,13 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@koale/useworker@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@koale/useworker/-/useworker-4.0.2.tgz#cb540a2581cd6025307c3ca6685bc60748773e58"
+  integrity sha512-xPIPADtom8/3/4FLNj7MvNcBM/Z2FleH85Fdx2O869eoKW8+PoEgtSVvoxWjCWMA46Sm9A5/R1TyzNGc+yM0wg==
+  dependencies:
+    dequal "^1.0.0"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -2819,6 +2826,11 @@ deprecated-react-native-prop-types@^2.3.0:
     invariant "*"
     prop-types "*"
 
+dequal@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/dequal/-/dequal-1.0.1.tgz#dbbf9795ec626e9da8bd68782f4add1d23700d8b"
+  integrity sha512-Fx8jxibzkJX2aJgyfSdLhr9tlRoTnHKrRJuu2XHlAgKioN2j19/Bcbe0d4mFXYZ3+wpE2KVobUVTfDutcD17xQ==
+
 destroy@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/destroy/-/destroy-1.2.0.tgz#4803735509ad8be552934c67df614f94e66fa015"
@@ -2910,6 +2922,13 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+eslint-plugin-prettier@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-4.0.0.tgz#8b99d1e4b8b24a762472b4567992023619cb98e0"
+  integrity sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==
+  dependencies:
+    prettier-linter-helpers "^1.0.0"
+
 esprima@^4.0.0, esprima@~4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
@@ -2977,6 +2996,15 @@ expo-asset@~8.5.0:
     path-browserify "^1.0.0"
     url-parse "^1.5.9"
 
+expo-camera@~12.2.0:
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-12.2.0.tgz#22c01a917e2a753b09bd28c0fdb2385f2444abf8"
+  integrity sha512-+YuVJsG/BdW7US5pkwHPXiFr7Kf37kGR5sgRqT3JzPUJaSkLlmepb/uAAyoYtVe8Zd/vD2H/YrYVTVaX3Xhqrw==
+  dependencies:
+    "@expo/config-plugins" "^4.0.14"
+    "@koale/useworker" "^4.0.2"
+    invariant "^2.2.4"
+
 expo-constants@~13.1.1:
   version "13.1.1"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-13.1.1.tgz#78c26c760cc63cd5608bc4b51bd159d7339d8054"
@@ -3009,6 +3037,13 @@ expo-keep-awake@~10.1.1:
   version "10.1.1"
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-10.1.1.tgz#03023c130f7e3824b738e3fdd5353b8a2c0c1980"
   integrity sha512-9zC0sdhQljUeMr2yQ7o4kzEZXVAy82fFOAZE1+TwPL7qR0b0sphe7OJ5T1GX1qLcwuVaJ8YewaPoLSHRk79+Rg==
+
+expo-media-library@~14.1.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/expo-media-library/-/expo-media-library-14.1.0.tgz#45302a49444a03d9e6597824bd7295b7bcb38286"
+  integrity sha512-hGXa+4pe6G6WHuNVoGCyBJ6W3VTUg1R63ULIcpXN+mU8k1AfPen/eEFaA3G2FUxdeTvyXJdWZOQY48uDu6I3hg==
+  dependencies:
+    "@expo/config-plugins" "^4.0.14"
 
 expo-modules-autolinking@0.8.1:
   version "0.8.1"
@@ -3101,6 +3136,11 @@ extglob@^2.0.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+fast-diff@^1.1.2:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
+  integrity sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==
 
 fast-glob@^3.2.5, fast-glob@^3.2.9:
   version "3.2.11"
@@ -5183,6 +5223,18 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
+
+prettier-linter-helpers@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
+  integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
+  dependencies:
+    fast-diff "^1.1.2"
+
+prettier@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
+  integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
 
 pretty-bytes@5.6.0:
   version "5.6.0"
